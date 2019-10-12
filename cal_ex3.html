@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+   <html dir="rtl">
+      <head>
+         <meta charset="utf-8">
+      </head> 
+      <body> 
+        <script type="text/javascript">
+         let op = prompt("عملگر  مورد نظر را وارد کنید");
+         let a = prompt("عدد اول را وارد کنید"); 
+         let b = prompt("عدد دوم را وارد کنید"); 
+         c = Number(a);
+         d = Number(b);
+         let ans; 
+         if(op == "+"){ 
+            ans=c+d;
+            alert(a+op+b+"="+ans);
+         } 
+         else if(op == "*"){ 
+            ans=c*d;
+            alert(a+op+b+"="+ans);
+         }
+         else if(op == "-"){ 
+            ans=c-d;
+            alert(a+op+b+"="+ans); 
+         }
+         else if(op == "/"){ 
+            ans=c/d;
+            alert(a+op+b+"="+ans); 
+         }
+         else if(op == "^"){ 
+            ans=c**d;
+            alert(a+op+b+"="+ans); 
+         }
+       </script>
+    </body>
+</html>
